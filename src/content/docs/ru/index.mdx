@@ -1,40 +1,57 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-# template: splash # Remove or comment out this line to display the site sidebar on this page.
-hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../../assets/houston.webp
-  actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+title: О боте
+description: Документация по работе с PayziBot
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { CardGrid } from '@astrojs/starlight/components';
+import Card from 'starlight-plugin-icons/components/Card.astro'
+import IconLink from 'starlight-plugin-icons/components/IconLink.astro'
 
-## Next steps
-
+## Возможности
+{/* https://icones.js.org/collection/material-symbols?s=gift */}
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Система уровней" icon="i-material-symbols:rocket-launch-outline-rounded" bordered>
+		Добавьте систему уровней с наградами за уровень и полной настройкой получаемого опыта
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Розыгрыши" icon="i-material-symbols:featured-seasonal-and-gifts-rounded" bordered>
+		Создавайте розыгрыши и управляйте ими командой `/giveaway`
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Мини-игры" icon="i-material-symbols:stadia-controller-sharp" bordered>
+		Играйте в змейку, виселицу, крестики-нолики, 2048 и множество других интересных игр!
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Звездная доска" icon="i-material-symbols:stars-2-rounded" bordered>
+		Установите и настройте звездную доску на вашем сервере (можно даже свою реакцию поставить)
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Просмотр погоды" icon="i-material-symbols:weather-hail-outline-rounded" bordered>
+		Просматривайте погоду на 3 дня в любом городе
+	</Card>
+	<Card title="Автореактинг" icon="i-material-symbols:add-reaction-outline-rounded" bordered>
+		Устанавливайте до 20 реакций, которые будут автоматически устанавливаться в выбранном канале
+	</Card>
+	<Card title="Роли за реакции" icon="i-material-symbols:badge-outline-rounded" bordered>
+		Выдавайте пользователям любые роли за постановку реакции под сообщением
+	</Card>
+	<Card title="Системные сообщения" icon="i-material-symbols:business-messages-outline-rounded" bordered>
+		Отправляйте приветственные и прощальные сообщения автоматически. Имеются роли за заход на сервер
 	</Card>
 </CardGrid>
+
+## 	Ссылки
+
+<div class="row">
+  <IconLink href="https://payzibot.app" icon="i-material-symbols:display-external-input-rounded" title="Сайт" flat />
+  <IconLink href="https://discord.gg/E7SFuVEB2Z" icon="i-material-symbols:policy-outline-rounded" title="Условия использования" flat />
+  <IconLink href="https://discord.gg/E7SFuVEB2Z" icon="i-material-symbols:policy-outline-rounded" title="Политика конфиденц." flat />
+  <IconLink href="https://discord.gg/E7SFuVEB2Z" icon="i-material-symbols:help-center-outline-rounded" title="Сервер поддержки" flat />
+  <IconLink href="https://github.com/PayziBot/PayziBot" icon="i-material-symbols:code-blocks-outline-rounded" title="Исходный код" flat />
+</div>
+
+<style>{`
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+`}</style>
