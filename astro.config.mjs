@@ -10,6 +10,7 @@ export default defineConfig({
 	integrations: [
 		UnoCSS(),
 		Icons({
+			sidebar: true,
 			codeblock: true,
 			extractSafelist: true,
 			starlight: {
@@ -34,9 +35,9 @@ export default defineConfig({
 				},
 				sidebar: [
 					{
-						label: 'Guides',
+						label: 'Команды',
 						items: [
-							{ label: 'Example Guide', slug: 'guides/example' },
+							{ icon: "i-material-symbols:stadia-controller-sharp", label: 'Игры', slug: 'commands/games' },
 						],
 					},
 					{
