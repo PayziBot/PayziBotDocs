@@ -15,6 +15,7 @@ export default defineConfig({
 			extractSafelist: true,
 			starlight: {
 				title: 'PayziBot',
+				favicon: '/favicon.ico',
 				defaultLocale: 'ru',
 				locales: {
 					en: {
