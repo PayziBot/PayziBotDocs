@@ -18,6 +18,7 @@
   --sl-color-gray-4: #545861;
   --sl-color-gray-5: #353841;
   --sl-color-gray-6: #24272f;
+  --sl-color-gray-7: #24272f;
   --sl-color-black: #17181c;
 
   --sl-color-hairline: #353841;
@@ -25,6 +26,29 @@
   --sl-color-hairline-shade: #17181c;
 
   color-scheme: dark;
+
+  --sl-color-blue-low: #15202b;
+  --sl-color-blue: #3b82f6;
+  --sl-color-blue-high: #93c5fd;
+
+  --sl-color-purple-low: #201a2b;
+  --sl-color-purple: #a78bfa;
+  --sl-color-purple-high: #d8b4fe;
+
+  --sl-color-green-low: #142a1d;
+  --sl-color-green: #22c55e;
+  --sl-color-green-high: #86efac;
+
+  --sl-color-orange-low: #2b2015;
+  --sl-color-orange: #f59e0b;
+  --sl-color-orange-high: #fcd34d;
+
+  --sl-color-red-low: #2b1515;
+  --sl-color-red: #ef4444;
+  --sl-color-red-high: #fca5a5;
+
+  --sl-color-asides-text-accent: var(--sl-color-white);
+  --sl-color-asides-border: var(--sl-color-gray-5);
 }
 
 starlight-theme-select {
