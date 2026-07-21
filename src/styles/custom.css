@@ -1,0 +1,32 @@
+:root,
+:root[data-theme='light'] {
+  --sl-color-bg: #17181c;
+  --sl-color-bg-nav: #17181c;
+  --sl-color-bg-sidebar: #17181c;
+  --sl-color-bg-inline-code: #24272f;
+  --sl-color-text: #ffffff;
+  --sl-color-text-accent: #3fcc65;
+
+  --sl-color-accent-low: #1a1a3d;
+  --sl-color-accent: #6366f1;
+  --sl-color-accent-high: #c7d2fe;
+
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #eceef2;
+  --sl-color-gray-2: #c0c2c7;
+  --sl-color-gray-3: #888b96;
+  --sl-color-gray-4: #545861;
+  --sl-color-gray-5: #353841;
+  --sl-color-gray-6: #24272f;
+  --sl-color-black: #17181c;
+
+  --sl-color-hairline: #353841;
+  --sl-color-hairline-light: #24272f;
+  --sl-color-hairline-shade: #17181c;
+
+  color-scheme: dark;
+}
+
+starlight-theme-select {
+  display: none !important;
+}

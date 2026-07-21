@@ -16,6 +16,7 @@ export default defineConfig({
 			starlight: {
 				title: 'PayziBot',
 				favicon: '/favicon.ico',
+				customCss: ['./src/styles/custom.css'],
 				defaultLocale: 'ru',
 				locales: {
 					en: {
