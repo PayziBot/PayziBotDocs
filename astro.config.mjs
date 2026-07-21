@@ -40,6 +40,8 @@ export default defineConfig({
 						items: [
 							{ icon: "i-material-symbols:stadia-controller-sharp", label: 'Игры', slug: 'commands/games' },
 							{ icon: "i-material-symbols:shield-spark-outline-rounded", label: 'Модерация', slug: 'commands/moderation' },
+							{ icon: "i-material-symbols:rocket-launch-outline-rounded", label: 'Система уровней', slug: 'commands/levels' },
+							{ icon: "i-material-symbols:shield-spark-outline-rounded", label: 'Модерация', slug: 'commands/moderation' },
 						],
 					},
 					{
