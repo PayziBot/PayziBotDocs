@@ -39,6 +39,7 @@ export default defineConfig({
 						label: 'Команды',
 						items: [
 							{ icon: "i-material-symbols:stadia-controller-sharp", label: 'Игры', slug: 'commands/games' },
+							{ icon: "i-material-symbols:shield-spark-outline-rounded", label: 'Модерация', slug: 'commands/moderation' },
 						],
 					},
 					{
