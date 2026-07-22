@@ -48,6 +48,12 @@ export default defineConfig({
 							{ icon: "i-material-symbols:background-dot-small-outline", label: 'Прочие', slug: 'commands/other' },
 						],
 					},
+					{
+						label: 'Веселости',
+						items: [
+							{ icon: "i-material-symbols:award-star-rounded", label: 'Достижения', slug: 'fun/achievements' },
+						],
+					},
 				],
 			}
 		}),
