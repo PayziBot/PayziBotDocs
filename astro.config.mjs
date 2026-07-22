@@ -48,11 +48,6 @@ export default defineConfig({
 							{ icon: "i-material-symbols:background-dot-small-outline", label: 'Прочие', slug: 'commands/other' },
 						],
 					},
-					{
-						label: 'Reference',
-						// @ts-expect-error — несовпадение типов между starlight-plugin-icons и @astrojs/starlight
-						items: [{ autogenerate: { directory: 'reference' } }],
-					},
 				],
 			}
 		}),
