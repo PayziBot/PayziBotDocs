@@ -45,6 +45,7 @@ export default defineConfig({
 							{ icon: "i-material-symbols:featured-seasonal-and-gifts-rounded", label: 'Розыгрыши', slug: 'commands/giveaways' },
 							{ icon: "i-material-symbols:settings-rounded", label: 'Настройки', slug: 'commands/settings' },
 							{ icon: "i-material-symbols:tools-wrench-outline-rounded", label: 'Утилиты', slug: 'commands/utils' },
+							{ icon: "i-material-symbols:background-dot-small-outline", label: 'Прочие', slug: 'commands/other' },
 						],
 					},
 					{
