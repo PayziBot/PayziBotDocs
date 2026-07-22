@@ -43,6 +43,7 @@ export default defineConfig({
 							{ icon: "i-material-symbols:shield-spark-outline-rounded", label: 'Модерация', slug: 'commands/moderation' },
 							{ icon: "i-material-symbols:rocket-launch-outline-rounded", label: 'Система уровней', slug: 'commands/levels' },
 							{ icon: "i-material-symbols:featured-seasonal-and-gifts-rounded", label: 'Розыгрыши', slug: 'commands/giveaways' },
+							{ icon: "i-material-symbols:settings-rounded", label: 'Настройки', slug: 'commands/settings' },
 						],
 					},
 					{
